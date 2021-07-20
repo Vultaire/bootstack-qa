@@ -107,6 +107,9 @@ applications:
       es-heap-size: 1
   filebeat:
     charm: cs:filebeat
+  fstab-config:
+    charm: cs:fstab-config
+    num_units: 1
   grafana:
     charm: cs:grafana
     num_units: 1

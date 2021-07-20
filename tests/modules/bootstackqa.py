@@ -35,6 +35,7 @@ class TestBase(unittest.TestCase):
         cls.charms = [
             "canonical-livepatch",
             "elastic",
+            "fstab-config",
             "grafana",
             "graylog",
             "hw-health",
